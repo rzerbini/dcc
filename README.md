@@ -1,2 +1,2 @@
 "# Home" 
-this ismy test home index
+this is my test home index
