@@ -1,0 +1,28 @@
+body {
+	font-family: Georgia, serif;
+	background: none;
+	color: black;
+	overflow-x: hidden !important;
+	font: .75em/120% Georgia, Arial, Helvetica,sans-serif, Verdana;
+}
+.slide-out-div {
+	display: none;
+}
+#page, #pagewrap {
+	width: 100%;
+	margin: 0; padding: 0;
+	background: none;
+}
+#header, #menu-bar, #sidebar, #sidebar2, h2#postcomment, form#commentform, #footer {
+	display: none;
+}
+#content {
+	width: 98%;
+}
+.entry a:after {
+	content: " [" attr(href) "] ";
+}
+#printed-article {
+	border: 1px solid #666;
+	padding: 10px;
+}
